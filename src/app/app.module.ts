@@ -49,12 +49,13 @@ import { LoginComponent } from './components/login/login.component';
     RouterModule.forRoot([
       {path:'', component:HomeComponent},
       {path:'products', component:ProductsComponent},
-      {path:'products', component:ProductsComponent},
-      {path:'products', component:ProductsComponent},
-      {path:'products', component:ProductsComponent},
-      {path:'products', component:ProductsComponent},
-      {path:'products', component:ProductsComponent},
-      {path:'products', component:ProductsComponent},
+      {path:'shopping-cart', component:ShoppingCartComponent},
+      {path:'check-out', component:CheckOutComponent},
+      {path:'order-successs', component:OrderSuccessComponent},
+      {path:'my-order', component:MyOrdersComponent},
+      {path:'admin/admin-products', component:AdminProductsComponent},
+      {path:'admin/admin-order', component:AdminOrdersComponent},
+      {path:'login', component:LoginComponent}
     ])
   ],
   providers: [],
