@@ -23,6 +23,8 @@ import { AdminProductsComponent } from './components/admin/admin-products/admin-
 import { AdminOrdersComponent } from './components/admin/admin-orders/admin-orders.component';
 import { LoginComponent } from './components/login/login.component';
 
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,7 +47,7 @@ import { LoginComponent } from './components/login/login.component';
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireAuthModule,
-
+    NgbModule.forRoot(),
     RouterModule.forRoot([
       {path:'', component:HomeComponent},
       {path:'products', component:ProductsComponent},
